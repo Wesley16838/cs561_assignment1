@@ -13,4 +13,4 @@ inner join
 (select cust, prod, quant, month, day, year from sales where month = 3 and year > 1999) maxmardate on maxmardate.quant = maxmarquant.max_q_mar
 ;
 
--- having year > 1999
+-- year > 1999
